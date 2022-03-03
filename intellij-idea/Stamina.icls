@@ -1,11 +1,11 @@
 <scheme name="Stamina" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-08-21T12:40:45</property>
+    <property name="created">2022-03-03T12:26:18</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2021.2.0.0</property>
-    <property name="modified">2021-08-21T12:41:00</property>
-    <property name="originalScheme">Stamina</property>
+    <property name="ideVersion">2021.3.2.0.0</property>
+    <property name="modified">2022-03-03T12:26:51</property>
+    <property name="originalScheme">Default (min7)</property>
   </metaInfo>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
@@ -41,6 +41,11 @@
         <option name="FOREGROUND" value="1bf" />
       </value>
     </option>
+    <option name="ASCIIDOC.LISTING_TEXT">
+      <value>
+        <option name="BACKGROUND" value="f5f5f5" />
+      </value>
+    </option>
     <option name="ASCIIDOC_BOLD">
       <value>
         <option name="FOREGROUND" value="4d4d4d" />
@@ -51,7 +56,12 @@
     <option name="ASCIIDOC_BOLDITALIC">
       <value />
     </option>
-    <option name="ASCIIDOC_MONO" baseAttributes="DEFAULT_TAG" />
+    <option name="ASCIIDOC_MONO">
+      <value>
+        <option name="FOREGROUND" value="4d4d4d" />
+        <option name="BACKGROUND" value="f5f5f5" />
+      </value>
+    </option>
     <option name="ASCIIDOC_MONOBOLD" baseAttributes="DEFAULT_TAG" />
     <option name="ASCIIDOC_MONOBOLDITALIC" baseAttributes="DEFAULT_TAG" />
     <option name="ASCIIDOC_MONOITALIC" baseAttributes="DEFAULT_TAG" />
@@ -85,14 +95,18 @@
     <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
     <option name="BRACE_ATTR">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="535357" />
+        <option name="FOREGROUND" value="ff33cc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="BRACE_ATTR_GUTTER">
+      <value />
     </option>
     <option name="BRACKET_ATTR">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="535357" />
+        <option name="FOREGROUND" value="ff33cc" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -164,8 +178,8 @@
     </option>
     <option name="CUSP_BRACKETS_ATTR">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="535357" />
+        <option name="FOREGROUND" value="ff33cc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
@@ -246,26 +260,22 @@
     <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="4d4d4d" />
-        <option name="BACKGROUND" value="f5f5f5" />
+        <option name="FOREGROUND" value="9b9657" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="bfbfbf" />
+        <option name="FOREGROUND" value="9b9657" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="4d4d4d" />
-        <option name="EFFECT_COLOR" value="bfbfbf" />
+        <option name="FOREGROUND" value="9b9657" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
-      <value>
-        <option name="FOREGROUND" value="bfbfbf" />
-      </value>
+      <value />
     </option>
     <option name="DEFAULT_DOT">
       <value />
@@ -368,7 +378,10 @@
       </value>
     </option>
     <option name="DOUBLE_QUOTE_ATTR">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="ff33cc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
     </option>
     <option name="Dot">
       <value>
@@ -383,8 +396,8 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="414d41" />
-        <option name="BACKGROUND" value="e9f5e6" />
+        <option name="FOREGROUND" value="8a7e00" />
+        <option name="BACKGROUND" value="f5f5f5" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
@@ -437,6 +450,19 @@
         <option name="FOREGROUND" value="737780" />
       </value>
     </option>
+    <option name="HTTP_HEADER_FIELD_VALUE">
+      <value>
+        <option name="FOREGROUND" value="737780" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_DOC_COMMENT_TAG">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_ENVIRONMENT_VARIABLE">
+      <value />
+    </option>
     <option name="HTTP_REQUEST_MESSAGE_BODY">
       <value>
         <option name="FOREGROUND" value="4d4d4d" />
@@ -445,23 +471,27 @@
       </value>
     </option>
     <option name="HTTP_REQUEST_MULTIPART_BOUNDARY" baseAttributes="DEFAULT_DOC_COMMENT_TAG_VALUE" />
+    <option name="HTTP_REQUEST_NAME">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="HTTP_REQUEST_PARAMETER_NAME">
       <value>
-        <option name="FOREGROUND" value="737780" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="HTTP_REQUEST_PARAMETER_VALUE">
       <value>
-        <option name="FOREGROUND" value="37a6" />
+        <option name="FOREGROUND" value="4d4d4d" />
+        <option name="BACKGROUND" value="f5f5f5" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTTP_REQUEST_PORT">
-      <value />
-    </option>
-    <option name="HTTP_REQUEST_SEPARATOR">
       <value>
-        <option name="BACKGROUND" value="f5f5f5" />
+        <option name="FOREGROUND" value="9966cc" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -470,6 +500,9 @@
         <option name="EFFECT_COLOR" value="8000" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="Head Symbol Namespace">
+      <value />
     </option>
     <option name="Head symbol">
       <value>
@@ -568,26 +601,10 @@
         <option name="FOREGROUND" value="4d4d4d" />
       </value>
     </option>
-    <option name="JSON.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="37a6" />
-      </value>
-    </option>
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="0" />
-      </value>
-    </option>
-    <option name="JSON.STRING">
-      <value>
-        <option name="FOREGROUND" value="37a6" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="JSON.VALID_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="737780" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="2266" />
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="JavaScript:INJECTED_LANGUAGE_FRAGMENT" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
@@ -595,6 +612,11 @@
       <value>
         <option name="FOREGROUND" value="1a1a1a" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Keyword Namespace">
+      <value>
+        <option name="FOREGROUND" value="4d4d4d" />
       </value>
     </option>
     <option name="Local lazy val/var">
@@ -615,8 +637,7 @@
     </option>
     <option name="MARKDOWN_BOLD">
       <value>
-        <option name="FOREGROUND" value="4d4d4d" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="2266" />
       </value>
     </option>
     <option name="MARKDOWN_CODE_BLOCK">
@@ -626,18 +647,18 @@
     </option>
     <option name="MARKDOWN_CODE_FENCE">
       <value>
+        <option name="FOREGROUND" value="4d4d4d" />
         <option name="BACKGROUND" value="f5f5f5" />
       </value>
     </option>
     <option name="MARKDOWN_CODE_SPAN">
       <value>
+        <option name="FOREGROUND" value="4d4d4d" />
         <option name="BACKGROUND" value="f5f5f5" />
       </value>
     </option>
     <option name="MARKDOWN_CODE_SPAN_MARKER">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
+      <value />
     </option>
     <option name="MARKDOWN_INLINE_HTML">
       <value>
@@ -676,9 +697,9 @@
     </option>
     <option name="PARENTHESIS_ATTR">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="535357" />
-        <option name="EFFECT_TYPE" value="3" />
+        <option name="FOREGROUND" value="ff33cc" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="PHP_COMMA">
@@ -734,20 +755,6 @@
     <option name="PROPERTIES.KEY_VALUE_SEPARATOR">
       <value>
         <option name="FOREGROUND" value="6e788a" />
-      </value>
-    </option>
-    <option name="PROPERTIES.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="737780" />
-        <option name="BACKGROUND" value="f5f5f5" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PROPERTIES.VALUE">
-      <value>
-        <option name="FOREGROUND" value="3eb3" />
-        <option name="BACKGROUND" value="f5f5f5" />
-        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="Parameter">
@@ -861,23 +868,24 @@
         <option name="BACKGROUND" value="f5f5f5" />
       </value>
     </option>
-    <option name="ScalaDoc @param value">
-      <value>
-        <option name="FOREGROUND" value="737373" />
-        <option name="BACKGROUND" value="f5f5f5" />
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="Semicolon">
       <value>
         <option name="FOREGROUND" value="c0c0c0" />
       </value>
     </option>
+    <option name="Symbol Namespace">
+      <value />
+    </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="7f0000" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -968,43 +976,22 @@
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
-    <option name="YAML_ANCHOR">
+    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="YAML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="5c6373" />
+        <option name="FOREGROUND" value="9b9657" />
       </value>
-    </option>
-    <option name="YAML_SCALAR_DSTRING">
-      <value>
-        <option name="FOREGROUND" value="37a6" />
-        <option name="BACKGROUND" value="f5f5f5" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_KEY">
-      <value />
     </option>
     <option name="YAML_SCALAR_LIST">
       <value>
-        <option name="FOREGROUND" value="37a6" />
+        <option name="FOREGROUND" value="4d4d4d" />
         <option name="BACKGROUND" value="f5f5f5" />
-      </value>
-    </option>
-    <option name="YAML_SCALAR_STRING">
-      <value>
-        <option name="FOREGROUND" value="37a6" />
-        <option name="BACKGROUND" value="f5f5f5" />
-        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="YAML_SCALAR_VALUE">
       <value>
-        <option name="FOREGROUND" value="37a6" />
+        <option name="FOREGROUND" value="4d4d4d" />
         <option name="BACKGROUND" value="f5f5f5" />
-      </value>
-    </option>
-    <option name="YAML_TEXT">
-      <value>
-        <option name="FOREGROUND" value="37a6" />
       </value>
     </option>
   </attributes>
